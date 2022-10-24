@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "shares",
+  "info": {
+    "singularName": "share",
+    "pluralName": "shares",
+    "displayName": "share",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "share": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
+    }
+  }
+}

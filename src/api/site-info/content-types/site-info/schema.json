@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_infos",
+  "info": {
+    "singularName": "site-info",
+    "pluralName": "site-infos",
+    "displayName": "site-info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "businessName": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "copyRight": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "string"
+    }
+  }
+}

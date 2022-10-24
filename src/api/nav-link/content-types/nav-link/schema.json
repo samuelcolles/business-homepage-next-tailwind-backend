@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "nav_links",
+  "info": {
+    "singularName": "nav-link",
+    "pluralName": "nav-links",
+    "displayName": "Nav-link"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
+    }
+  }
+}

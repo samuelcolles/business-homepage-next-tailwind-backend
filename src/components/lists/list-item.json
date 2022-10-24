@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_lists_list_items",
+  "info": {
+    "displayName": "List-Item",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
