@@ -4,7 +4,8 @@
   "info": {
     "singularName": "site-header",
     "pluralName": "site-headers",
-    "displayName": "Site Header"
+    "displayName": "Site Header",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,18 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "videoHeaderSRC": {
+      "type": "text"
     }
   }
 }
