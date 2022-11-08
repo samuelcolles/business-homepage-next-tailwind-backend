@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "image_card_grids",
+  "info": {
+    "singularName": "image-card-grid",
+    "pluralName": "image-card-grids",
+    "displayName": "image card grid"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lists.image-card"
+    }
+  }
+}
