@@ -16,6 +16,9 @@
       "type": "component",
       "repeatable": true,
       "component": "links.links"
+    },
+    "header": {
+      "type": "string"
     }
   }
 }
