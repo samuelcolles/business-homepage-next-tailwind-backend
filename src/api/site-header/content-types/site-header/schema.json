@@ -4,7 +4,7 @@
   "info": {
     "singularName": "site-header",
     "pluralName": "site-headers",
-    "displayName": "Site Header",
+    "displayName": "image-header",
     "description": ""
   },
   "options": {
@@ -28,9 +28,6 @@
         "videos",
         "audios"
       ]
-    },
-    "videoHeaderSRC": {
-      "type": "text"
     }
   }
 }

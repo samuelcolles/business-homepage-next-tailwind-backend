@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "video_headers",
+  "info": {
+    "singularName": "video-header",
+    "pluralName": "video-headers",
+    "displayName": "Video Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "src": {
+      "type": "text"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
