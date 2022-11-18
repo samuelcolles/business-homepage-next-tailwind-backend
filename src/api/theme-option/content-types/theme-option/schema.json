@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "theme_options",
+  "info": {
+    "singularName": "theme-option",
+    "pluralName": "theme-options",
+    "displayName": "Theme-Option",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backgroundStyle": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "whiteAndSolid",
+        "twoImagePattern"
+      ]
+    },
+    "primaryBackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "secondaryBackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
